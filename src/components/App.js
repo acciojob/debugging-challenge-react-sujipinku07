@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import '../styles/App.css';
 
@@ -7,8 +8,8 @@ const App = () => {
 
   return (
     <div className="ball">
-      <h1 classNamme="count" ondoubleclick={() => { alert("cant edit it") }}>{count}</h1>
-      <button className='increment-button' onclick={() => { setCount(count + 1) }}>Increment</button>
+      <h1 className="count" onDoubleclick={() => { alert("cant edit it") }}>{count}</h1>
+      <button className='increment-button' onClick={() => { setCount(count + 1) }}>Increment</button>
     </div>
   )
 }
